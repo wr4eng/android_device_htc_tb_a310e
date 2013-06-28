@@ -79,7 +79,7 @@ BOARD_BLUEDROID_VENDOR_CONF := device/htc/pico/bluetooth/vnd_pico.txt
 TARGET_SPECIFIC_HEADER_PATH := device/htc/pico/include
 
 # OpenGL drivers config file path
-BOARD_EGL_CFG := device/htc/pico/prebuilt/lib/egl/egl.cfg
+BOARD_EGL_CFG := vendor/htc/pico/proprietary/lib/egl/egl.cfg
 
 # Wifi related definitions
 BOARD_WPA_SUPPLICANT_DRIVER      := NL80211
